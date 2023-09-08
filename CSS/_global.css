@@ -1,0 +1,21 @@
+header {
+    max-height: 150px;
+    min-height: 150px;
+    background-color: #223181;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+footer {
+    max-height: 150px;
+    min-height: 150px;
+    background-color: #3E3D3D;
+}
+
+a {
+    text-decoration-style: none;
+    color:black;
+}
