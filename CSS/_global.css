@@ -2,20 +2,37 @@ header {
     max-height: 150px;
     min-height: 150px;
     background-color: #223181;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    min-height: 100vh;
-    margin: 0 auto;
+    height: 100vh;
+    display: grid;
 }
 
 footer {
     max-height: 150px;
     min-height: 150px;
     background-color: #3E3D3D;
+    margin: 0;
 }
 
 a {
     text-decoration-style: none;
     color:black;
 }
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+ .cardimg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
