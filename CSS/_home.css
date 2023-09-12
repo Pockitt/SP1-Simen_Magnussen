@@ -1,0 +1,35 @@
+.card {
+    position: relative;
+    margin: 0 auto;
+    height: 400px;
+    width: 280px;
+}
+
+.cardimg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card_text {
+    background-color: rgba(0,0,0,.7);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 150px;
+    position: absolute;
+    bottom: -150px;
+    width: 100%;
+}
+
+.homebody {
+    background-image: url(/images/homebackground.jpg);
+}
+
+.home {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    margin: 0 auto;
+    }

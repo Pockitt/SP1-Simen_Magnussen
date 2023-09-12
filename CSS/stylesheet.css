@@ -1,18 +1,10 @@
+/* _global contains elements seen all across the site */
 @import url(_global.css);
 
-.home {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-gap: 50px;
-margin: 0 auto;
-}
+/* _home contains elements relevant only to the home page */
+@import url(_home.css); 
 
-.card {
-    max-height: 400px;
-    max-width: 280px;
-}
 
-.homebody {
-    background-image: url(/images/homebackground.jpg);
-    margin: 0;
-}
+
+
+
