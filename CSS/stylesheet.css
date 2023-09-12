@@ -4,7 +4,22 @@
 /* _home contains elements relevant only to the home page */
 @import url(_home.css); 
 
+.subject {
+    display: flex;
+    flex-direction: row;
+    background-color: #0E0E0C;
+}
 
+.subject:nth-of-type(even) {
+    flex-direction: row-reverse;
+    background-color: #383A51;
+}
 
+.subject_img {
+    
+}
 
+.subject_p {
+    color: white;
+}
 
