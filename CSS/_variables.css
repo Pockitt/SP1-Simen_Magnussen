@@ -1,1 +1,6 @@
---clr-suba: <#0E0E0C>;
+:root {
+    --bckgrnd-clr-1: #0E0E0C;
+    --bckgrnd-clr-2: #383A51;
+    --header-clr: #223181;
+    --footer-clr: #3E3D3D;
+}
