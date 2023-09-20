@@ -1,0 +1,23 @@
+.back_button_top {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--btn-clr);
+    position: absolute;
+    left: 8%;
+    bottom: -75px;
+    text-align: center;
+    text-decoration-color: black;
+ }
+
+ .back_button_btm {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--btn-clr);
+    position: absolute;
+    left: 8%;
+    top: -75px;
+    text-align: center;
+    text-decoration-color: black;
+ }

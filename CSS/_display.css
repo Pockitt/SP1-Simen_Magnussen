@@ -1,0 +1,8 @@
+.subject, header, body, footer, .subject_text,
+.visit_card, .visit_map, .basic_text, .basic_card {
+    display: flex;
+}
+
+.home {
+    display: grid;
+}

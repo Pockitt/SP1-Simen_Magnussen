@@ -1,5 +1,4 @@
 header {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -9,7 +8,6 @@ header {
     padding: 0;
     position: relative;
 }
-
 
 .logo {
     position: absolute;
@@ -21,13 +19,11 @@ header {
 
 body {
     min-height: 100vh;
-    display: flex;
     flex-direction: column;
     margin: 0 auto;
 }
 
 footer {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -39,19 +35,5 @@ footer {
 }
 
 a {
-    font-family: Helvetica, sans-serif;
     text-decoration-style: none;
-    color: white;
 }
-
-h1, h2 {
-    font-family: Helvetica, sans-serif;
-    color: white;
-    
-}
-
-p {
-    font-family: Helvetica, sans-serif;
-    color: white;
-}
-

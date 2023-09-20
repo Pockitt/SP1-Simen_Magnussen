@@ -7,8 +7,16 @@
 /* _variables contains colors used on the site */
 @import url(_variables.css);
 
+/* _display contains display values */
+@import url(_display.css);
+
+/* _text-styles contains text styling */
+@import url(_text-style.css);
+
+/* _back-btn contains styling for the "Go Back" button */
+@import url(_back-btn.css);
+
 .subject {
-    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
@@ -32,7 +40,6 @@
 }
 
 .subject_text{
-    display: flex;
     flex-wrap: wrap;
     max-width: 600px;
     align-content: center;
@@ -41,6 +48,7 @@
 .basic_bckgrnd {
     background-color: var(--bckgrnd-clr-1);
 }
+
  .visit_card {
     background-color: var(--bckgrnd-clr-2);
     max-width: 1200px;
@@ -49,13 +57,11 @@
     margin-bottom: 150px;
     padding-top: 25px;
     padding-bottom: 75px;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
  }
 
  .visit_map {
-    display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
@@ -63,7 +69,6 @@
  }
 
  .basic_text {
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 80px;
@@ -79,37 +84,6 @@
     padding-top: 25px;
     padding-bottom: 75px;
     border-radius: 10px;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
- }
-
- .back_button_top {
-    width: 120px;
-    height: 40px;
-    border-radius: 5px;
-    background-color: var(--btn-clr);
-    position: absolute;
-    left: 8%;
-    bottom: -75px;
-    text-align: center;
-    text-decoration-color: black;
- }
-
- .back_button_btm {
-    width: 120px;
-    height: 40px;
-    border-radius: 5px;
-    background-color: var(--btn-clr);
-    position: absolute;
-    left: 8%;
-    top: -75px;
-    text-align: center;
-    text-decoration-color: black;
- }
-
- @media (width < 800px) {
-    .logo {
-        display: none;
-    }
  }
