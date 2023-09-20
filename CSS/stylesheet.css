@@ -38,7 +38,7 @@
     align-content: center;
 }
 
-.visit_bckgrnd {
+.basic_bckgrnd {
     background-color: var(--bckgrnd-clr-1);
 }
  .visit_card {
@@ -62,7 +62,7 @@
     margin: 25px 80px 25px 80px;
  }
 
- .visit_text {
+ .basic_text {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -70,12 +70,46 @@
     margin-right: 80px;
  }
 
- .back_button {
+ .basic_card {
+    background-color: var(--bckgrnd-clr-2);
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 75px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+ .back_button_top {
     width: 120px;
     height: 40px;
-    border-radius: 3%;
+    border-radius: 5px;
     background-color: var(--btn-clr);
-    position: sticky;
+    position: absolute;
+    left: 8%;
+    bottom: -75px;
     text-align: center;
     text-decoration-color: black;
+ }
+
+ .back_button_btm {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--btn-clr);
+    position: absolute;
+    left: 8%;
+    top: -75px;
+    text-align: center;
+    text-decoration-color: black;
+ }
+
+ @media (width < 800px) {
+    .logo {
+        display: none;
+    }
  }
